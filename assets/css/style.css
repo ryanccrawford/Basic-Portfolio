@@ -1,6 +1,108 @@
 body{
 
 }
-.card{
+main{
+    width:100%;
+    background-color: lightgray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+table{
+    border:none;  
+}
+header {
+    width: 100%;
+    background-color: white;
+}
+.name-logo {
+    background-color: teal;
+    display: inline-block;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    float:right;
+    margin-right: 12%;
+}
+
+nav ul{
+
+}
+
+nav li{
+    display: inline;
+    padding-left: 25px;
+}
+nav a {
+    text-decoration: none;
+    color:blue;
+}
+nav.active a {
+    color:red;
+}
+nav.active a:hover {
+    color:darkred;
+}
+.content-area{
     width:960px;
+    background-color: white;
+ }
+
+.side{
+    width:12%;
+    background-color: lightgray;
+}
+.box {
+    padding: 30px;
+}
+
+.box-title{
+    text-align: center;
+    margin-top: -49px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+}
+
+.card {
+   
+    padding:25px;
+    background-color: white;
+}
+.card-image{
+
+    float:left;
+    padding: 10px;
+
+}
+.card-title{
+    font-size: 20px;
+    color: teal;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid teal;
+    margin-bottom: 20px;
+}
+.card p{
+    color: black;
+    line-height: 1;
+}
+
+footer{
+    widows: 100%;
+    background-color: darkgray;
+    border-top:3px solid teal;
+    height:50px;
+}
+
+footer span.copy{
+    display: block;
+    text-align: center;
 }
