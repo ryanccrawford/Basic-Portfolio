@@ -26,16 +26,18 @@ header {
     position: fixed;
     z-index: 10;
     min-width: 1200px;
+    height: 50px;
 }
 .name-logo {
     display: inline-block;
     padding: 20px;
+    margin-left: 90px;
     font-size: 20px;
     width: 150px;
-    margin-left: 90px;
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 4px 2px black;
 }
 .box-image img {
     height: 200px;
